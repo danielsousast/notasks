@@ -1,11 +1,16 @@
 import React from 'react';
-
-import {View} from 'react-native';
-
-// import { Container } from './styles';
+import {Text} from 'react-native';
+import FloatingButton from '../../components/FloatingButton';
+import {Container} from './styles';
 
 const Home: React.FC = () => {
-  return <View />;
+  return (
+    <Container>
+      <FloatingButton>
+        <Text>+</Text>
+      </FloatingButton>
+    </Container>
+  );
 };
 
 export default Home;
